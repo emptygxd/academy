@@ -1,0 +1,366 @@
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .header__link {
+    left: 16px;
+    top: 28px;
+    width: 100px;
+    height: 43px;
+  }
+
+  .header__link-img-bg {
+    width: 25px;
+    height: 26px;
+    justify-content: end;
+  }
+
+  .header__link-img-bg > svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header__link-label > h3 {
+    font-size: 14px;
+  }
+
+  .circles {
+    width: 824px;
+    height: 284px;
+  }
+
+  .circle__wrapper-midterm {
+    --wrapper-size: 172px;
+    --circle-size: 145px;
+    --top: 22px;
+  }
+
+  .circle__wrapper-calendar {
+    --wrapper-size: 207px;
+    --circle-size: 177px;
+    --top: 82px;
+    --left: 115px;
+  }
+
+  .circle__wrapper-logo {
+    --wrapper-size: 310px;
+    --circle-size: 266px;
+    --left: 277px;
+  }
+
+  .circle__logo {
+    width: 242px;
+    height: 275px;
+  }
+
+  .circle__wrapper-lessons {
+    --wrapper-size: 189px;
+    --circle-size: 160px;
+    --left: 530px;
+  }
+
+  .circle__wrapper-theory {
+    --wrapper-size: 172px;
+    --circle-size: 145px;
+    --top: 96px;
+    --left: 655px;
+  }
+
+  .circle__content {
+    gap: 16px;
+  }
+
+  .circle__icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .circle__label {
+    gap: 4px;
+  }
+
+  .circle__label strong {
+    font-size: 20px;
+  }
+
+  .circle__label > * {
+    font-size: 14px;
+  }
+
+  .cards__wrapper {
+    width: 992px;
+  }
+
+  .card {
+    width: 304px;
+    height: 194px;
+  }
+
+  .card__header {
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    background-size: 120px auto, 120px auto, cover;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .header__link {
+    left: 0;
+    top: 8px;
+
+    width: 92px;
+    height: 40px;
+
+    flex-direction: row;
+    transform: rotate(0);
+    border-radius: 0 30px 30px 0;
+  }
+
+  .header__link-img-bg {
+    border-radius: 0 16px 16px 0;
+    justify-content: center;
+  }
+
+  .header__link-img-bg > svg {
+    transform: rotate(0);
+  }
+
+  .circles {
+    width: 688px;
+    height: 160px;
+  }
+
+  .circle__wrapper-midterm {
+    --circle-size: 146px;
+    --rotate: 40deg;
+    --cutout: 280;
+    --top: 0;
+  }
+
+  .circle__wrapper-calendar {
+    --wrapper-size: 172px;
+    --circle-size: 146px;
+    --rotate: 40deg;
+    --cutout: 280;
+    --top: 0;
+    --left: 132px;
+  }
+
+  .circle__wrapper-logo {
+    --wrapper-size: 172px;
+    --circle-size: 146px;
+    --left: 265px;
+  }
+
+  .circle__logo {
+    width: 134px;
+    height: 152px;
+    top: -4px;
+  }
+
+  .circle__bg {
+    bottom: 13px;
+  }
+
+  .circle__wrapper:nth-child(3) .circle__bg {
+    bottom: 14px;
+  }
+
+  .circle__wrapper-lessons {
+    --wrapper-size: 172px;
+    --circle-size: 146px;
+    --rotate: 220deg;
+    --cutout: 280;
+    --top: 0;
+    --left: 394px;
+  }
+
+  .circle__wrapper-theory {
+    --circle-size: 146px;
+    --rotate: 220deg;
+    --cutout: 280;
+    --top: 0;
+    --left: 526px;
+  }
+
+  .circle__content {
+    gap: 12px;
+  }
+
+  .circle__icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .circle__label strong {
+    font-size: 16px;
+  }
+
+  .cards__wrapper {
+    width: 688px;
+    padding: 16px;
+    margin-bottom: 14px;
+  }
+
+  .card {
+    width: 320px;
+    height: 176px;
+  }
+
+  .card__description {
+    height: 56px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    background-size: 60px auto, 60px auto, cover;
+  }
+
+  h1 {
+    letter-spacing: 1.5px;
+  }
+
+  .circles {
+    display: none;
+  }
+
+  .mobile__circles {
+    position: relative;
+    width: 100%;
+    height: 224px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    visibility: visible;
+    padding: 10px;
+  }
+
+  .circle__wrapper-logo {
+    --wrapper-size: 130px;
+    --circle-size: 110px;
+    --top: none;
+    --left: 0;
+    bottom: 0;
+  }
+
+  .circle__logo {
+    width: 100px;
+    height: 113px;
+    top: -2px;
+  }
+
+  .circle__bg {
+    bottom: 9px;
+  }
+
+  .circle__icon {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+
+    width: 34px;
+    height: 34px;
+
+    transform: translateY(-50%);
+  }
+
+  .dashboard-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .dashboard-nav__item {
+    position: relative;
+    width: 197px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 50px;
+    background-color: var(--midterm-color);
+
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .dashboard-nav__item:hover .circle__label-header::after {
+    width: 100%;
+  }
+
+  .dashboard-nav__item > strong {
+    margin: auto 0;
+    color: var(--white);
+    font-size: 16px;
+  }
+
+  .dashboard-nav__item > p {
+    color: var(--white);
+    font-size: 14px;
+  }
+
+  .circle__label-header::after {
+    bottom: -1px;
+    height: 1px;
+  }
+
+  .dashboard-nav__item-calendar {
+    background-color: var(--calendar-color);
+  }
+  .dashboard-nav__item-lessons {
+    background-color: var(--lessons-color);
+  }
+  .dashboard-nav__item-theory {
+    background-color: var(--theory-color);
+  }
+
+  .header__link {
+    top: 70px;
+  }
+
+  main {
+    margin-top: 16px;
+  }
+
+  .card {
+    width: 312px;
+    height: 162px;
+  }
+
+  .cards__wrapper {
+    width: 344px;
+  }
+
+  .card__header {
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .card__description {
+    height: 50px;
+    font-size: 14px;
+  }
+}

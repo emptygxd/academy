@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "TurismoCF";
+  src: url("./TurismoCF-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./Rubik-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./Rubik-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
