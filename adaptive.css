@@ -92,15 +92,6 @@
     font-size: 14px;
   }
 
-  .cards__wrapper {
-    width: 992px;
-  }
-
-  .card {
-    width: 304px;
-    height: 194px;
-  }
-
   .card__header {
     height: 40px;
     font-size: 20px;
@@ -213,22 +204,13 @@
   }
 
   .cards__wrapper {
-    width: 688px;
     padding: 16px;
     margin-bottom: 14px;
-  }
-
-  .card {
-    width: 320px;
-    height: 176px;
-  }
-
-  .card__description {
-    height: 56px;
+    justify-content: center;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   body {
     background-size: 60px auto, 60px auto, cover;
   }
@@ -345,22 +327,12 @@
     margin-top: 16px;
   }
 
-  .card {
-    width: 312px;
-    height: 162px;
-  }
-
-  .cards__wrapper {
-    width: 344px;
-  }
-
   .card__header {
     height: 32px;
     font-size: 16px;
   }
 
   .card__description {
-    height: 50px;
     font-size: 14px;
   }
 }
